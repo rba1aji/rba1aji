@@ -1,6 +1,10 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
 
 export default function Header() {
+    const navigate = (id) => {
+        const element = document.querySelector(id);
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
 
     return (
         <Navbar bg="light" expand="lg"
@@ -28,7 +32,7 @@ export default function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link
-                            href='#Intro'
+                            onClick={() => navigate('#Intro')}
                             className='text-white text-bolder px-3'
                         >
                             Balaji
@@ -39,7 +43,7 @@ export default function Header() {
                                     return (
                                         <Nav.Link
                                             id={index}
-                                            href={`#${page}`}
+                                            onClick={() => navigate(`#${page}`)}
                                             className='text-white px-3'
                                         >
                                             {page}
