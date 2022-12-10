@@ -34,6 +34,7 @@ export default function Header() {
                         <Nav.Link
                             onClick={() => navigate('#Intro')}
                             className='text-white text-bolder px-3'
+                            as="button"
                         >
                             Balaji
                         </Nav.Link>
@@ -45,6 +46,7 @@ export default function Header() {
                                             id={index}
                                             onClick={() => navigate(`#${page}`)}
                                             className='text-white px-3'
+                                            as="button"
                                         >
                                             {page}
                                         </Nav.Link>
