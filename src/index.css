@@ -1,0 +1,18 @@
+body {
+  background-image: linear-gradient(to right bottom, #131314, #151316, #0e0c0e, #0e0c0e, black, #0e0c0e, #0e0c0e, #151316, #131314);
+  background-color: black;
+  color: #fff !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+/* .row{
+  justify-content: center !important;
+} */
