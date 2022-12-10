@@ -3,7 +3,7 @@ export default function Projects() {
 
     return (
         <>
-            <h2>Works</h2>
+            <h2 className="odd">Works</h2>
             <p>
             </p>
         </>

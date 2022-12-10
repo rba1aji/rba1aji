@@ -51,7 +51,7 @@ export default function Intro() {
                                 h1 .B{
                                     font-size: ${isMobile ? '140%' : '6vw'};
                                 }
-                                p {
+                                p.who-am-i {
                                     font-size: ${isMobile ? '130%' : '2vw'};
                                     font-weight: 400;
                                     margin: 0;
@@ -79,7 +79,7 @@ export default function Intro() {
                                         style={{
                                             color: '#D92027',
                                             paddingLeft: isMobile ? '0' : '20px',
-                                            textShadow: isMobile ? '-4.1px -2.6px 0px #00c9c8' : '-7px -4px 0px #00c9c8',
+                                            textShadow: isMobile ? '-4.2px -3.5px 0px #00c9c8' : '-7px -4px 0px #00c9c8',
                                             position: 'relative',
                                             bottom: isMobile ? '-4px' : '-5px',
                                         }}

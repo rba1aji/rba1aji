@@ -29,7 +29,7 @@ export default function Header() {
                     <Nav className="ms-auto">
                         <Nav.Link
                             href='#Intro'
-                            className='text-white text-bolder'
+                            className='text-white text-bolder px-3'
                         >
                             Balaji
                         </Nav.Link>

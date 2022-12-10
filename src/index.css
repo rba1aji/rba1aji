@@ -16,3 +16,22 @@ body {
 /* .row{
   justify-content: center !important;
 } */
+
+
+h2 {
+  font-family: 'coolvetica', sans-serif;
+  font-weight: 900 !important;
+  text-align: center;
+}
+
+h2.even {
+  background: linear-gradient(to right, #F28266, #F17063, #EF5D60, #EE4F64, #EC4067, #D9376D, #C62D72, #B32478, #A01A7D);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2.odd {
+  background: linear-gradient(to right, teal, #008080ff, #1A9292ff, #34A4A4ff, #4EB6B6ff, #68C8C8ff, #82DADAff, #9CECECff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
