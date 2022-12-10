@@ -5,7 +5,6 @@ export default function Projects() {
         <>
             <h2>Works</h2>
             <p>
-                This is the works page.
             </p>
         </>
     );

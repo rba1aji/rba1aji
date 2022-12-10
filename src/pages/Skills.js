@@ -3,7 +3,6 @@ export default function Skills() {
         <>
             <h2>Skills</h2>
             <p>
-                This is the skills page.
             </p>
         </>
     );

@@ -3,7 +3,6 @@ export default function Contact() {
         <>
             <h2>Contact</h2>
             <p>
-                This is the contact page.
             </p>
         </>
     );
