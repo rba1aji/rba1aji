@@ -13,6 +13,15 @@ export default function Contact() {
                     style={{
                     }}
                 >
+                    {
+                        !isMobile
+                        && <style>{`
+                        #Contact li {
+                            padding-top:25px;
+                            padding-left:35px;
+                        }
+                    `}</style>
+                    }
 
                     <form action="https://formspree.io/f/mpzkyqgd" method="POST"
                         style={{
