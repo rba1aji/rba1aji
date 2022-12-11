@@ -4,7 +4,7 @@ export default function Skills() {
     const isMobile = window.innerWidth < 768;
     return (
         <>
-            <h2 className="even pb-2 pt-5">My Skills</h2>
+            <h2 className="even pb-4 pt-5">My Skills</h2>
             <div className={`${isMobile ? 'col' : 'row py-2'} px-5`}
                 style={{
                     overflowX: 'hidden'

@@ -15,21 +15,21 @@ function App() {
     const element = document.querySelector(id);
     element.scrollIntoView({ behavior: 'smooth' });
   }
-  useEffect(() => {
-    let navLinks = document.querySelectorAll('a');
-    navLinks = [...navLinks, 'Intro']
-    for (const [index, link] of navLinks.entries()) {
-      setTimeout(() => {
-        navigate(`#${link.innerHTML}`);
-      }, (index * 150));
-    }
-  }, [])
+  // useEffect(() => {
+  //   const navLinks = ['About', 'Skills', 'Projects', 'Contact'];
+  //   let i = 0;
+  //   for (const [index, link] of navLinks.entries()) {
+  //     setTimeout(() => {
+  //       navigate(`#${link}`);
+  //     }, (i++ * 500));
+  //   }
+  // }, [])
 
-  useEffect(() => {
-    setTimeout(() => {
-      navigate('#Intro');
-    }, 1000)
-  })
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     navigate('#Intro');
+  //   }, 3000)
+  // }, [])
 
   return (
     <>

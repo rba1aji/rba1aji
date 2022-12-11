@@ -8,9 +8,10 @@ export default function Header() {
             fixed="bottom"
             style={{
                 zIndex: 1,
-                backdropFilter: 'blur(25px)',
+                // backdropFilter: 'blur(25px)',
                 textAlign: 'right',
                 fontSize: '125%',
+                textShadow: '0 0 15px #000',
             }}
             variant="dark"
         >
