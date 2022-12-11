@@ -38,7 +38,7 @@ function App() {
       <style>
         {`
           h2{
-            font-size: ${isMobile ? 'auto' : '3.5vw'};
+            font-size: ${isMobile ? '170%' : '3.5vw'};
           }
         `}
       </style>

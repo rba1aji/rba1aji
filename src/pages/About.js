@@ -9,7 +9,7 @@ export default function About() {
             }}
             className={`px-5  ${isMobile ? '' : 'mx-5 pt-5'}`}
         >
-            <h2 className="odd mb-4 pt-5">About Me</h2>
+            <h2 className="odd pb-3 pt-3">About Me</h2>
             <p>
                 Im a pre-final year student studying Computer Science and Engineering at K S Rangasamy College of Technology.
             </p>

@@ -8,3 +8,89 @@ h1 {
     opacity: 0.8;
 }
 
+
+.skillset2{
+    display: block;
+}
+
+
+@keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-webkit-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-moz-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-o-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+.bar {
+    background-color: #1a1a1a;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-bottom: 3.25vh;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+}
+
+.bar::before {
+    content: attr(data-skill);
+    background-color: #f3b0ff;
+    display: inline-block;
+    padding: 3px;
+    padding-left: 7px;
+    border-radius: inherit;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
+}
+
+.bar.front::before {
+    background-color: #ffcc33;
+}
+
+.bar.back::before {
+    background-color: #f3b0ff;
+}
+
+.bar.back2::before {
+    background-color: #a6cfe3;
+}
+
+.bar.learning::before {
+    width: calc(20% - 10px);
+}
+
+.bar.basic::before {
+    width: calc(60% - 10px);
+}
+
+.bar.intermediate::before {
+    width: calc(45% - 10px);
+}
+
+.bar.advanced::before {
+    width: calc(70% - 10px);
+}
+
+.bar.expert::before {
+    width:
+        calc(100% - 10px);
+}

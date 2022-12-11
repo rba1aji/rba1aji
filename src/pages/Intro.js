@@ -7,7 +7,6 @@ export default function Intro() {
     return (
         <Container
             style={{
-                minHeight: '100vh',
                 paddingTop: isMobile ? '0' : '22vh',
             }}
             fluid
@@ -39,7 +38,7 @@ export default function Intro() {
                             style={{
                                 textAlign: isMobile ? 'center' : 'left',
                             }}
-                            className={isMobile ? 'mt-0' : 'mt-4'}
+                            className={isMobile ? 'mt-0' : 'pt-4'}
                         >
                             <style>
                                 {`
@@ -89,7 +88,7 @@ export default function Intro() {
                                     alaji
                                 </span>
                             </h1>
-                            <p className={`who-am-i ${isMobile ? 'mt-3' : 'mt-4'}`}>
+                            <p className={`who-am-i ${isMobile ? 'pt-3' : 'pt-4'}`}>
                                 A pre-final year student
                                 <br />
                                 An aspiring software developer
