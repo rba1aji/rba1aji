@@ -5,16 +5,17 @@ import Contact from './pages/Contact';
 import Intro from './pages/Intro';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
+import Location from './pages/Location';
 
 function App() {
   const pageID = ['Intro', 'About', 'Skills', 'Projects', 'Contact'];
 
   const isMobile = window.innerWidth < 768;
-  const navigate = (id) => {
-    const element = document.querySelector(id);
-    element.scrollIntoView({ behavior: 'smooth' });
-  }
+  // const navigate = (id) => {
+  //   const element = document.querySelector(id);
+  //   element.scrollIntoView({ behavior: 'smooth' });
+  // }
   // useEffect(() => {
   //   const navLinks = ['About', 'Skills', 'Projects', 'Contact'];
   //   let i = 0;
@@ -57,6 +58,7 @@ function App() {
             );
           })
       }
+      <Location />
     </>
   );
 }

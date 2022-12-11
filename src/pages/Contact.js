@@ -60,7 +60,7 @@ export default function Contact() {
                         !isMobile &&
                         <style>{`
                         form input, form textarea{
-                            width:65%;
+                            width:${isMobile ? '67.5vw' : '65%'};
                         }
                         .send-btn{
                             width:65%;
