@@ -9,10 +9,33 @@ h1 {
 }
 
 
-.skillset2{
+.skillset2 {
     display: block;
 }
 
+form input,
+textarea {
+    border: 2px solid teal;
+    background-color: black;
+    color: yellow;
+    outline: 0;
+    /* width: 65%; */
+    /* height:120%; */
+    padding: 1%;
+}
+
+.socialmedia {
+    list-style-type: none;
+}
+
+#Contact img {
+    width: 40px;
+    height: 40px;
+}
+
+/* .send-btn { */
+/* width: 50%; */
+/* } */
 
 @keyframes load {
     from {

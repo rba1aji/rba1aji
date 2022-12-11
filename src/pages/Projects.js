@@ -1,4 +1,4 @@
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 export default function Projects() {
     const projects = [
@@ -10,7 +10,7 @@ export default function Projects() {
 
     return (
         <>
-            <h2 className="odd pt-3 pb-3">Personal Projects</h2>
+            <h2 className={`odd pt-3 ${isMobile ? '' : 'pb-3'}`}>Personal Projects</h2>
 
             <Row xs={1} md={2} className="g-4 px-3 mx-5">
                 {Array.from({ length: projects.length }).map((_, idx) => (
@@ -28,6 +28,11 @@ export default function Projects() {
                             className='bg-white'
                         >
                         </iframe>
+                        <a href={projects[idx]}
+                            className='text-center'
+                        >
+                            Open
+                        </a>
                     </Col>
                 ))}
             </Row>
