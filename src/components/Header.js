@@ -1,5 +1,4 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 export default function Header() {
 
@@ -29,8 +28,7 @@ export default function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link
-                            as={Link}
-                            to='#Intro'
+                            href='#Intro'
                             className='text-white text-bolder px-3'
                         >
                             Balaji
@@ -41,8 +39,7 @@ export default function Header() {
                                     return (
                                         <Nav.Link
                                             id={index}
-                                            as={Link}
-                                            to={`#${page}`}
+                                            href={`#${page}`}
                                             className='text-white px-3'
                                         >
                                             {page}

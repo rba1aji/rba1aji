@@ -8,6 +8,8 @@ import Skills from './pages/Skills';
 import { useEffect } from 'react';
 
 function App() {
+  const pageID = ['Intro', 'About', 'Skills', 'Projects', 'Contact'];
+
   const isMobile = window.innerWidth < 768;
   const navigate = (id) => {
     const element = document.querySelector(id);
@@ -47,7 +49,7 @@ function App() {
             return (
               <div
                 key={index}
-                id={page.type.name}
+                id={pageID[index]}
                 className="page"
               >
                 {page}
